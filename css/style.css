@@ -1,6 +1,7 @@
 .wraper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .block {
     width: 250px;
@@ -15,3 +16,4 @@
 .block:nth-child(3) {
     background-color: blue;
 }
+
